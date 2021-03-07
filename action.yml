@@ -1,9 +1,11 @@
 name: 'Godot Build'
 description: 'Help Automate Building Godot Projects within a GitHub Action Pipeline'
 inputs:
-  random: ''
+  random:
+    description: ''
 outputs:
-  unknown: ''
+  unknown:
+    description: ''
 runs:
   using: 'node15'
   main: 'index.js'
